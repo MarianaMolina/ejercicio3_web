@@ -10,7 +10,6 @@
     font-size: calc(0.5em + 1vh);
 }
 
-
 /*header*/
 .container{
     background-color: #000023;
@@ -48,22 +47,28 @@ a{
 
 /*body*/
 .inicio{
-    height: 100vh;
-    /* The image used */
-    background-image: url("img/muro.jpg");
+    background-color: #EAEAEA;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 1em;
-    text-transform: capitalize;
-    min-height: 600px;
+    justify-content: space-between;
+    height: 524px;
+}
+
+.inicio img{
+    margin:40px;
+}
+
+.informacion{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: center;
+    border: 1px solid transparent;
+    margin:40px 70px;
 }
 
 .informacion h2{
     color: black;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-family: 'Anton', sans-serif;
 }
 
@@ -72,4 +77,7 @@ a{
     text-decoration: none;
     font-size: 1.2rem;
     font-family: 'Fira Sans Condensed', sans-serif;
+    text-align: justify;
 }
+
+/*investigacion*/
