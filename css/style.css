@@ -140,3 +140,7 @@
     font-family: 'Lalezar', cursive;
     text-align: center;
 }
+
+.info a:hover{
+    background: black;
+}
