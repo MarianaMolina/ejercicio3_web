@@ -1,6 +1,7 @@
 /*import*/
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lalezar&display=swap');
 
 
 *, ::before, ::after {
@@ -116,3 +117,14 @@
     grid-column-end: 6;
 }
 
+.investigacion h2{
+    color: white;
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-family: 'Lalezar', cursive;
+    text-align: center;
+}
+
+.info{
+    
+}
