@@ -6,3 +6,7 @@ let enlace_dia2 = document.querySelector("#enlace2");
 let enlace_dia3 = document.querySelector("#enlace3");
 let enlace_dia4 = document.querySelector("#enlace4");
 let enlace_dia5 = document.querySelector("#enlace5");
+
+let mostrarDatos = (obj) =>{
+    let new_row = document.createElement(" table ");
+}
